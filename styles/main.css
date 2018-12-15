@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    margin: 0;
+    width: 100%;
+}
+
+body {
+    background-image: url("../assets/images/spiration-light.png");
+    height: 100%;
+    width: 100%;
+}
+
+#myname {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px;
+}
+
+h1 {
+    height: 100%;
+}
+
+h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+}
+
+h2 {
+    border-bottom: 2px solid #cccccc;
+    color: #4aaaa5;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.nav-item {
+    border-right: 1px solid #cccccc;
+    margin: 15px 0 15px 0;
+    padding: 5px;
+}
+
+.container {
+    width: 960px;
+}
+
+.col-md-8 {
+    background-color: #ffffff
+}
+
+.bio-image {
+    display: block;
+    float: left;
+}
+
+.bio-info {
+    float: right;
+}
+
+.col-md-6 {
+    float: left;
+}
+
+.card {
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.card-body {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.main {
+    background-color: #ffffff
+}
+
+.btn {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.btn:hover {
+    background-color: #16F5C4;
+    color: #ffffff;
+}
+
+.btn:focus {
+    background-color: #16F5C4;
+    color: #ffffff;
+}
+
+.btn:active {
+    background-color: #56A8E3;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #666666;
+    color: #cccccc;
+    border-top: 8px solid #4aaaa5;
+    clear: both;
+    font-size: 12px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 30px 0;
+    text-align: center;
+    width: 100%;
+}
