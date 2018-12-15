@@ -11,13 +11,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
 
-        <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
 </head>
 
 <body>
-<!-- Made using Bootstrap v.4.1.3 Navbar -->
+    <!-- Made using Bootstrap v.4.1.3 Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><h1 id="myname">Lynn Amsbury</h1></a>
+        <a class="navbar-brand" href="#">
+            <h1 id="myname">Lynn Amsbury</h1>
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -32,38 +34,41 @@
                     <a class="nav-link" href="index.html">About</a>
                 </li>
                 <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
-<!-- Made using Bootstrap 4.1.3 Grid and Forms-->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <div class="main">
-                    <h2>Contact</h2>
-                    <form>
-                        <div class="form-group">
-                            <label for="exampleFormControl">Name</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">Email</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+    <!-- Made using Bootstrap 4.1.3 Grid and Forms-->
+    <div class="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="main">
+                        <h2>Contact</h2>
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleFormControl">Name</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Email</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
                 </div>
+                <div class="col-md-4"></div>
             </div>
-            <div class="col-md-4"></div>
+            <div class="push"></div>
         </div>
     </div>
 
