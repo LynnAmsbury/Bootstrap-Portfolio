@@ -1,3 +1,3 @@
 # Bootstrap-Portfolio
 
-A basic portfolio made in the spirit of the Basic Portfolio, but using Bootstrap.
+A portfolio made in the spirit of the Basic Portfolio, but using Bootstrap.
